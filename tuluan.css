@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header .left p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.header .right{
+    position: relative;
+    width: 261px;
+    height: 28px;
+}
+.header .right span>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.header .right span>img{
+    display: none;text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.headersection{
+    width: 100%;
+    height: 624px;
+    padding: 100px;
+    gap: 10px;
+}
+.headersection .content{
+    display: flex;
+    width: 100%;
+    height: 424px;
+    gap: 28px;
+}
+.headersection .content .left .text1{
+    width: 557px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+.headersection .content .left .text2{
+    width: 557px;
+    height: 180px;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+.headersection .content .left .text3{
+    width: 557px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+.headersection .content .left .text4{
+    display: none;
+}
+.headersection .content .right{
+    width: 495px;
+    height: 424px;
+}
+.skillssection{
+    width: 1280px;
+    height: 688px;
+    gap: 10px;
+    padding-top: 180px;
+    padding-right: 140px;
+    padding-bottom: 180px;
+    padding-left: 140px;
+}
+.skillssection .content{
+    display: flex;
+    width: 999.6974487304688px;
+    height: 328px;
+    gap: 125px;
+}
+.skillssection .content .text1{
+    width: 249.89915466308594px;
+    height: 328px;
+    gap: 56px;
+}
+.skillssection .content .text1 .image{
+    width: 130px;
+    height: 130px;
+    margin-bottom: 56px;
+    margin-left:57px;
+}
+.skillssection .content .text1 .title{
+    width: 249.89915466308594px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 19px;
+}
+.skillssection .content .text1 .p{
+    width: 249.89915466308594px;
+    height: 81px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 19px;
+}
+.workssection{
+    width: 1280px;
+    height: 1016px;
+    gap: 60px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+}
+.workssection .title{
+    display: flex;
+    width: 1070px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+.workssection .title1{
+    display: none;
+}
+.workssection .content{
+    width: 1080px;
+    height: 874px;
+    gap: 60px;
+}
+.workssection .content .text1{
+    display: flex;
+    width: 1080px;
+    height: 407px;
+    gap: 67.5px;
+    margin-bottom: 60px;
+}
+.workssection .content .text1 .td{
+    width: 33%;
+    height: 407px;
+    gap: 25px;
+}
+.workssection .content .text1 .td .image{
+    width: 315px;
+    height: 315px;
+    margin-bottom: 25px;
+}
+.workssection .content .text1 .td .caption{
+    width: 315px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+.workssection .content .text1 .td .p{
+    width: 315px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+.workssection .content .text2{
+    display: flex;
+    width: 1080px;
+    height: 407px;
+    gap: 67.5px;
+    margin-bottom: 60px;
+}
+.workssection .content .text2 .td{
+    width: 33%;
+    height: 407px;
+    gap: 25px;
+}
+.workssection .content .text2 .td .image{
+    width: 315px;
+    height: 315px;
+    margin-bottom: 25px;
+}
+.workssection .content .text2 .td .caption{
+    width: 315px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+.workssection .content .text2 .td .p{
+    width: 315px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-bottom: 10px;
+}
+.footersection{
+    width: 1280px;
+    height: 669px;
+    gap: 10px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+    padding-left: 100px;
+    font-weight: 600;
+}
+.footersection .content{
+    display: flex;
+    width: 1080px;
+    height: 599px;
+    gap: 70px;
+    padding-top: 70px;
+    border-top-width: 2px;
+}
+.footersection .content .left{
+    width: 360px;
+    height: 313px;
+    gap: 60px;
+}
+.footersection .content .left .caption{
+    width: 360px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+.footersection .content .left .p{
+    width: 360px;
+    height: 135px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+}
+.footersection .content .left .image{
+    width: 232px;
+    height: 36px;
+}
+.footersection .content .right .text1{
+    width: 530px;
+    height: 69px;
+    gap: 10px;
+    padding-top: 21px;
+    padding-right: 30px;
+    padding-bottom: 21px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    background-color: #F3F3F3;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.footersection .content .right .text2{
+    width: 530px;
+    height: 231px;
+    gap: 10px;
+    padding-right: 30px;
+    padding-bottom: 150px;
+    padding-left: 30px;
+    margin-bottom: 40px;
+    background-color: #F3F3F3;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.footersection .content .right .button{
+    width: 235px;
+    height: 80px;
+    gap: 10px;
+    padding-top: 25px;
+    padding-right: 82px;
+    padding-bottom: 25px;
+    padding-left: 82px;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .header .right span>a{
+        display: none;
+    }
+    .header .right span>img{
+        display: block;
+        margin-left: 200px;
+    }
+    .headersection{
+        width: 375px;
+        height: 692.8181762695312px;
+        gap: 10px;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-bottom: 60px;
+        padding-left: 30px;
+    }
+    .headersection .content{
+        flex-direction: column;
+        width: 315px;
+        height: 582.8181762695312px;
+        gap: 60px;
+    }
+    .headersection .content .left .text1{
+        width: 315px;
+        height: 30px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .headersection .content .left .text2{
+        width: 315px;
+        height: 98px;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 49.2px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .headersection .content .left .text3{
+        display: none;
+    }
+    .headersection .content .left .text4{
+        display: block;
+        width: 315px;
+        height: 81px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .headersection .content .right img{
+        width: 315px;
+        height: 269.81817626953125px;
+    }
+    .skillssection{
+        width: 375px;
+        height: 1534px;
+        gap: 10px;
+        padding-top: 150px;
+        padding-right: 62px;
+        padding-bottom: 150px;
+        padding-left: 62px;
+
+    }
+    .skillssection .content{
+        flex-direction: column;
+        width: 249.89915466308594px;
+        height: 1234px;
+        gap: 125px;
+    }
+    .skillssection .content .text1{
+        width: 249.89915466308594px;
+        height: 328px;
+        gap: 56px;
+    }
+    .skillssection .content .text1 .image{
+        width: 130px;
+        height: 130px;
+        margin-bottom: 56px;
+        margin-left:57px;
+    }
+    .skillssection .content .text1 .title{
+        width: 249.89915466308594px;
+        height: 42px;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 42px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .skillssection .content .text1 .p{
+        width: 249.89915466308594px;
+        height: 81px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: center;
+    }
+    .workssection{
+        width: 375px;
+        height: 2924px;
+        gap: 60px;
+        padding-top: 40px;
+        padding-right: 30px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        border-bottom: 2px solid #cccccc;
+    }
+    .workssection .title{
+        display: none;
+    }
+    .workssection .title1{
+        display: block;
+        width: 191px;
+        height: 42px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+    .workssection .content{
+        width: 315px;
+        height: 2742px;
+        gap: 60px;
+    }
+    .workssection .content .text1{
+        display: flex;
+        flex-direction: column;
+    }
+    .workssection .content .text1 .td{
+        width: 315px;
+        height: 407px;
+        gap: 25px;
+
+    }
+    .workssection .content .text1 .td .image{
+        width: 315px;
+        height: 315px;
+
+    }
+    .workssection .content .text1 .td .caption{
+        width: 315px;
+        height: 30px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0%;
+
+    }
+    .workssection .content .text1 .td .p{
+        width: 315px;
+        height: 27px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 0%;
+    }
+    .workssection .content .text2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1000px;
+    }
+    .footersection{
+        width: 375px;
+        height: 1104px;
+        gap: 10px;
+        padding-right: 30px;
+        padding-bottom: 70px;
+        padding-left: 30px;        
+    }
+    .footersection .content{
+        flex-direction: column;
+        width: 315px;
+        height: 1034px;
+        gap: 70px;
+        padding-top: 70px;
+        border-top-width: 2px;        
+    }
+    .footersection .content .left{
+        width: 315px;
+        height: 355px;
+        gap: 60px;        
+    }
+    .footersection .content .left .caption{
+        width: 315px;
+        height: 84px;      
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0%;  
+    }
+    .footersection .content .left .p{
+        width: 315px;
+        height: 135px;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 0%;
+    }
+    .footersection .content .left .image{
+        width: 232px;
+        height: 36px;        
+    }
+    .footersection .content .right .text1{
+        width: 315px;
+        height: 69px;
+        gap: 10px;
+        padding-top: 21px;
+        padding-right: 30px;
+        padding-bottom: 21px;
+        padding-left: 30px;
+    }
+    .footersection .content .right .text2{
+        width: 315px;
+        height: 231px;
+        gap: 10px;
+    }
+    .footersection .content .right .button{
+        width: 235px;
+        height: 80px;
+        gap: 10px;
+        padding-top: 25px;
+        padding-right: 82px;
+        padding-bottom: 25px;
+        padding-left: 82px;        
+    }
+}
